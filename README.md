@@ -11,11 +11,11 @@ javac Huffman.java
 ```
 
 ## Usage
-Display Help Menu - ```java Huffman```
+Display Help Menu - ```java Huffman```  
 
-[] - required, <> - optional
-Compression: ```java Huffman -c [input file] [output file]```
-De-Compression: ```java Huffman -d [input file] <output file>```
+[] - required, <> - optional  
+Compression: ```java Huffman -c [input file] [output file]```  
+De-Compression: ```java Huffman -d [input file] <output file>```  
 ```
 
 ## Samples
