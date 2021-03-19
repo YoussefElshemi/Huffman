@@ -24,7 +24,7 @@ public class FileHelper {
         line = bf.readLine(); // move to next line
       }
 
-      bf.close(); // close buffered reader
+      bf.close();
       builder.setLength(Math.max(builder.length() - 2, 0)); // remove extra CRLF at end of reading file
       return builder.toString();
     } catch (Exception e) {
@@ -60,9 +60,10 @@ public class FileHelper {
     try {
       FileWriter writer = new FileWriter(path, StandardCharsets.UTF_8); // create file writer
       writer.write(output); // save output to file
-      writer.close(); // close file writer
+      writer.close();
     } catch (Exception e) {
       e.printStackTrace();
     }
   }
+  
 }
