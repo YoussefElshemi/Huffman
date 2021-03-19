@@ -1,17 +1,24 @@
-# Huffman
+# Huffman.java
 
 Huffman.java allows users to compress and decompress their files
 
 ## Installation
 
-Simply install all files and compile using: ```javac Huffman.java```
+Simply install all files and compile using:
+
+```
+javac Huffman.java
+```
 
 ## Usage
-Display Help Menu - ```java Huffman```  
 
-[] - required, <> - optional  
-Compression: ```java Huffman -c [input file] [output file]```  
-De-Compression: ```java Huffman -d [input file] <output file>```  
+```
+java Huffman - Displays Help Menu
+
+[] - required, <> - optional
+Compression: java Huffman -c [input file] [output file]
+De-Compression: java Huffman -d [input file] <output file>
+```
 
 ## Samples
 ### Books
