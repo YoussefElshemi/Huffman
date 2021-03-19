@@ -63,7 +63,7 @@ public class BinaryHelper {
     try {
       OutputStream outputStream = new FileOutputStream(path); // create file output stream
       outputStream.write(data); // save bytes to file
-      outputStream.close();
+      outputStream.close(); // close file output stream
     } catch (Exception e) {
       e.printStackTrace();
     }
